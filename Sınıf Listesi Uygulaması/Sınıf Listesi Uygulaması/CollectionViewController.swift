@@ -1,4 +1,20 @@
 private let hucreAdi = "hucreAdi"
+        if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+            let satirElemanSAyisi : CGFloat = 2
+            let bosluk : CGFloat = 4
+//            let genislik = collectionView.frame.width / satirElemanSAyisi - bosluk
+            let toplamBosluk = bosluk*(satirElemanSAyisi-1)
+            let itemBsoluk = toplamBosluk / satirElemanSAyisi
+            let genislik = collectionView.frame.width / satirElemanSAyisi - itemBsoluk
+            let yukselik = genislik
+            layout.itemSize = CGSize(width: genislik, height: yukselik)
+            // itemler arası boşlupu ayarlar
+            layout.minimumInteritemSpacing = bosluk
+            //satırlar arası boşluğu ayarlar
+            layout.minimumLineSpacing = bosluk
+        }
+
+    }
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
