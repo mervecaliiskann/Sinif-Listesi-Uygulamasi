@@ -74,3 +74,8 @@ struct Ogrenci {
         }
         return cell
     }
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        seciliIndex = indexPath.row
+        performSegue(withIdentifier: "Detaylar", sender: self)
+        
+    }
