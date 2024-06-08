@@ -79,3 +79,8 @@ struct Ogrenci {
         performSegue(withIdentifier: "Detaylar", sender: self)
         
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination as? ViewController {
+            vc.ogrenci = ogrenciler[seciliIndex]
+        }
+    }
