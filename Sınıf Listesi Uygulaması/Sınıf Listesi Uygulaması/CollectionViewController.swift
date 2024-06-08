@@ -1,0 +1,1 @@
+private let hucreAdi = "hucreAdi"
