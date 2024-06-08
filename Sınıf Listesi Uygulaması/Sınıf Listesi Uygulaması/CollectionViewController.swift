@@ -1,4 +1,8 @@
 private let hucreAdi = "hucreAdi"
+struct Ogrenci {
+    var adi: String
+    var ogrenciNumarasi : Int
+}
         if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
             let satirElemanSAyisi : CGFloat = 2
             let bosluk : CGFloat = 4
