@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var lblOgrencininAdi: UILabel!
+    @IBOutlet weak var lblOgrenciNumarasi: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
