@@ -3,6 +3,7 @@ struct Ogrenci {
     var adi: String
     var ogrenciNumarasi : Int
 }
+    var ogrenciler : [Ogrenci] = [Ogrenci]()
         if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
             let satirElemanSAyisi : CGFloat = 2
             let bosluk : CGFloat = 4
