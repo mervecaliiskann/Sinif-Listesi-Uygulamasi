@@ -18,6 +18,26 @@ struct Ogrenci {
             //satırlar arası boşluğu ayarlar
             layout.minimumLineSpacing = bosluk
         }
+        let o1 = Ogrenci(adi: "Merve", ogrenciNumarasi: 1)
+        let o2 = Ogrenci(adi: "Zeynep", ogrenciNumarasi: 2)
+        let o3 = Ogrenci(adi: "Hilal", ogrenciNumarasi: 3)
+        let o4 = Ogrenci(adi: "Rabia", ogrenciNumarasi: 4)
+        let o5 = Ogrenci(adi: "Aslı", ogrenciNumarasi: 5)
+        let o6 = Ogrenci(adi: "Kübra", ogrenciNumarasi: 6)
+        let o7 = Ogrenci(adi: "Bedirhan", ogrenciNumarasi: 7)
+        let o8 = Ogrenci(adi: "Melihcan", ogrenciNumarasi: 8)
+        let o9 = Ogrenci(adi: "Enes", ogrenciNumarasi: 9)
+        let o10 = Ogrenci(adi: "Emin", ogrenciNumarasi: 10)
+        let o11 = Ogrenci(adi: "ZeynepŞ", ogrenciNumarasi: 11)
+        let o12 = Ogrenci(adi: "KübraD", ogrenciNumarasi: 12)
+        let o13 = Ogrenci(adi: "Özdemir", ogrenciNumarasi: 13)
+        let o14 = Ogrenci(adi: "Erhan", ogrenciNumarasi: 14)
+        let o15 = Ogrenci(adi: "Buse", ogrenciNumarasi: 15)
+        let o16 = Ogrenci(adi: "Bahar", ogrenciNumarasi: 16)
+        let o17 = Ogrenci(adi: "Fikriye", ogrenciNumarasi: 17)
+        let o18 = Ogrenci(adi: "Adem", ogrenciNumarasi: 18)
+        let o19 = Ogrenci(adi: "İsa", ogrenciNumarasi: 19)
+        let o20 = Ogrenci(adi: "Nurgül", ogrenciNumarasi: 20)
 
     }
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
